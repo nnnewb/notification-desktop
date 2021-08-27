@@ -1,25 +1,21 @@
 <template>
-  <home />
+  <router-view />
 </template>
 
 <script>
-import Home from "./views/Home.vue";
+import { RouterView } from "vue-router";
 
 export default {
   name: "App",
   components: {
-    Home,
+    RouterView,
   },
 };
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang="scss">
+* {
+  padding: 0;
+  margin: 0;
 }
 </style>
