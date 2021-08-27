@@ -1,24 +1,7 @@
 # notification-desktop
 
-## Project setup
-```
-yarn install
-```
+基于 mqtt 协议的桌面通知工具
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## 部署
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+需要一个支持 ws 协议的 mqtt broker，可以用 [gmqtt](https://github.com/DrmagicE/gmqtt)，看起来还可以。
